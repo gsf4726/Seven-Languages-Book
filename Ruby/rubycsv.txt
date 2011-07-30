@@ -1,0 +1,3 @@
+fname, lname, city
+Joe, Smith, Atlanta
+Tom, Jones, Tampa
