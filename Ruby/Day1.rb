@@ -1,4 +1,4 @@
-#ruby_day1.rb
+#Day1.rb
 #Ruby - Chapter 2, Day 1 Self-Study
 
 puts "Task: Print the string \"Hello, world\"."
