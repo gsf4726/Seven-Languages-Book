@@ -6,16 +6,12 @@ trait Censor {
 }
 
 class SearchResult(val results: String) extends Censor {
-  def getAllResults() = this.results
   def getSafeResults() = this.scrub(this.results)
 }
 
 val myResult = new SearchResult(
-  "Go ahead, do it! Shoot me! Darn you, dirty ape..."
+  "Darn, I have to finish this homework. Shoot me!"
 )
-
-println("Dirty Results:")
-println(myResult.getAllResults)
 
 println("Safe Results:")
 println(myResult.getSafeResults)
