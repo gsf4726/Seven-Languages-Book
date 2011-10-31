@@ -1,0 +1,2 @@
+(defn collection-type [input-coll] 
+  (if (list? input-coll) :list (if (map? input-coll) :map (if (vector? input-coll) :vector "Unsupported type"))))
