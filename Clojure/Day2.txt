@@ -1,0 +1,7 @@
+(defmacro unless-else [test if-part else-part]
+  (list 'if (list 'not test)
+    if-part
+    else-part))
+    
+    
+(unless-else true (println "In IF condition") (println "In ELSE condition"))
